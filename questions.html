@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MINTX</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/questions.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="site">
+    <div class="header">
+        <div class="nav">
+            <a href="./index.html"><img src="./svg/logo2.svg" alt="" class="logo"></a>
+
+            <nav class="menu">
+                <span class="nav-elements">
+                <a href="./nft-creators.html" class="nav-pages">Создатели NFT</a>
+                <a href="./developers.html" class="nav-pages">Разработчики</a>
+                <a href="./team.html" class="nav-pages">Команда</a>
+                <a href="./questions.html" class="nav-pages selected">Вопросы</a>
+                <a href="./support.html" class="nav-pages">Поддержка</a>
+            </span>
+                <div class="sign-up-button">
+                    <a href="" class="sign-up-link">Войти</a>
+                </div>
+            </nav>
+            <header>
+                <div class="menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </header>
+        </div>
+    </div>
+  <div class="body questions-page">
+      <div class="block">
+          <div class="top">
+              <h1>Есть вопросы?</h1>
+              <p>Не можете найти то, что ищете? Обратитесь в нашу <a href="./support.html">службу поддержки</a>.</p>
+          </div>
+          <div class="bottom">
+              <div class="left-block">
+                  <div class="content">
+                      <h2>Часто задаваемые вопросы <br>
+                          от пользователей</h2>
+                      <div class="questions-links">
+                          <a href="./users-questions.html">Что такое MINTX?</a><br>
+                          <a href="./users-questions.html">Как получить доступ к купленному NFT?</a><br>
+                          <a href="./users-questions.html">Могу ли я перевести свой NFT на другой кошелек?</a>
+                      </div>
+                      <div class="button">
+                          <div class="button-elements">
+                              <a href="./users-questions.html">Увидеть все</a>
+                              <img src="./svg/right-arrow-svg.svg" alt="" class="right-arrow-svg">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="right-block">
+                  <div class="content">
+                      <h2>Часто задаваемые вопросы <br>
+                          от разработчиков</h2>
+                      <div class="questions-links">
+                          <a href="./creators-questions.html">Как работает MINTX?</a><br>
+                          <a href="./creators-questions.html">Почему я должен добавить MINTX к себе?</a><br>
+                          <a href="./creators-questions.html">Сколько стоит добавить MINTS?</a>
+                      </div>
+                      <div class="button">
+                          <div class="button-elements">
+                              <a href="./creators-questions.html">Увидеть все</a>
+                              <img src="./svg/right-arrow-svg.svg" alt="" class="right-arrow-svg">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+    <div class="footer">
+      <div class="button-nav">
+        <a href="./index.html"><img src="./svg/logo2.svg" alt="" class="logo"></a>
+        <span class="nav-elements">
+                <a href="./nft-creators.html" class="nav-pages">Создатели NFT</a>
+                <a href="./developers.html" class="nav-pages">Разработчики</a>
+                <a href="./team.html" class="nav-pages">Команда</a>
+                <a href="./questions.html" class="nav-pages selected">Вопросы</a>
+                <a href="./support.html" class="nav-pages">Поддержка</a>
+            </span>
+        <div class="connection">
+          <img src="./svg/Twitter.svg" alt="" class="connection-icon">
+          <img src="./svg/Telegram.svg" alt="" class="connection-icon">
+          <img src="./svg/Discord.svg" alt="" class="connection-icon">
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script>
+    let menuBtn = document.querySelector('.menu-btn');
+    let show = document.querySelector('.right-block');
+    let body = document.querySelector('body');
+    let menu = document.querySelector('.menu');
+    menuBtn.addEventListener('click', function(){
+        show.classList.toggle('visible');
+        body.classList.toggle('no_scroll');
+        menuBtn.classList.toggle('active');
+        menu.classList.toggle('active');
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MINTX</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/support.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="site">
+    <div class="header">
+        <div class="nav">
+            <a href="./index.html"><img src="./svg/logo2.svg" alt="" class="logo"></a>
+
+            <nav class="menu">
+                <span class="nav-elements">
+                <a href="./nft-creators.html" class="nav-pages">Создатели NFT</a>
+                <a href="./developers.html" class="nav-pages">Разработчики</a>
+                <a href="./team.html" class="nav-pages">Команда</a>
+                <a href="./questions.html" class="nav-pages">Вопросы</a>
+                <a href="./support.html" class="nav-pages selected">Поддержка</a>
+            </span>
+                <div class="sign-up-button">
+                    <a href="" class="sign-up-link">Войти</a>
+                </div>
+            </nav>
+            <header>
+                <div class="menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </header>
+        </div>
+    </div>
+    <div class="body questions-page">
+        <div class="block">
+            <div class="top">
+                <h1>Поддержка</h1>
+                <p>Если у вас есть какие-либо вопросы, вы можете обратиться в нашу <br>
+                    <a href="#">службу поддержки</a> клиентов, прочитать нашу
+                    <a href="#">документацию</a> или <br> посетить нашу страницу
+                    <a href="./questions.html"> часто задаваемых вопросов.</a></p>
+            </div>
+            <div class="bottom">
+                <div class="left-block">
+                    <img id="mail-contact-images" src="./svg/mail-support.svg" alt="" class="contact-images">
+                    <h5>Отдел продаж</h5>
+                        <h6>sales.mintx@gmail.com</h6>
+                    <div class="button">
+                        <a href="#">Перейти</a>
+                    </div>
+                </div>
+                <div class="central-block">
+                    <img id="discord-contact-images" src="./svg/discord-support.svg" alt="" class="contact-images">
+                    <h5>Живая поддержка</h5>
+                    <h6>Присоединяйтесь к нам в Discord</h6>
+                    <div class="button">
+                        <a href="#">Присоединиться</a>
+                    </div>
+                </div>
+                <div class="right-block">
+                    <img id="document-contact-images" src="./svg/document-support.svg" alt="" class="contact-images">
+                    <h5>Документация</h5>
+                    <h6>Прочтите наши документы</h6>
+                    <div class="button">
+                        <a href="#">Читать</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="button-nav">
+            <a href="./index.html"><img src="./svg/logo2.svg" alt="" class="logo"></a>
+            <span class="nav-elements">
+                <a href="./nft-creators.html" class="nav-pages">Создатели NFT</a>
+                <a href="./developers.html" class="nav-pages">Разработчики</a>
+                <a href="./team.html" class="nav-pages">Команда</a>
+                <a href="./questions.html" class="nav-pages">Вопросы</a>
+                <a href="./support.html" class="nav-pages selected">Поддержка</a>
+            </span>
+            <div class="connection">
+                <img src="./svg/Twitter.svg" alt="" class="connection-icon">
+                <img src="./svg/Telegram.svg" alt="" class="connection-icon">
+                <img src="./svg/Discord.svg" alt="" class="connection-icon">
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    let menuBtn = document.querySelector('.menu-btn');
+    let show = document.querySelector('.right-block');
+    let body = document.querySelector('body');
+    let menu = document.querySelector('.menu');
+    menuBtn.addEventListener('click', function(){
+        show.classList.toggle('visible');
+        body.classList.toggle('no_scroll');
+        menuBtn.classList.toggle('active');
+        menu.classList.toggle('active');
+    })
+</script>
+</body>
+</html>

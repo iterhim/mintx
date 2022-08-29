@@ -1,0 +1,76 @@
+.body.questions-page{
+  justify-content: center;
+  .block{
+    width: 878px;
+    margin: 51px auto 124px;
+    .top{
+      justify-content: center;
+      text-align: center;
+      h1{
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 94px;
+        color: #000000;
+      }
+      p{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        margin-top: 54px;
+        color: rgba(0, 0, 0, 0.8);
+        a{
+          color: #08BDD4;
+        }
+      }
+    }
+    .bottom{
+      margin-top: 76px;
+      display: flex;
+      .central-block{
+        margin: 0 auto;
+      }
+      .left-block, .central-block, .right-block{
+        justify-content: center;
+        text-align: center;
+        align-items: end;
+        h5{
+          margin-top: 15px;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 19px;
+          color: rgba(0, 0, 0, 0.8);
+        }
+        h6{
+          margin-top: 4px;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 16px;
+          text-align: center;
+          color: rgba(0, 0, 0, 0.8);
+        }
+        .button{
+          display: inline-flex;
+          margin: 37px auto 0;
+          border: 1px solid #000000;
+          border-radius: 23.5px;
+          cursor: pointer;
+          height: 39px;
+          padding: 0 24px;
+          a{
+            margin: auto;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;
+          }
+          &:active{
+            background: #000000;
+            a{
+              color: #FFFFFF;
+            }
+          }
+        }
+      }
+    }
+  }
+}

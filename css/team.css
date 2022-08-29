@@ -1,0 +1,321 @@
+@media screen and (min-width: 1280px){
+  .body.team-page .first-block .container .bottom .content .comments .left-block {
+    width: 579px;
+  }
+  .body.team-page .first-block .container .bottom .content .comments .left-block p {
+    margin-right: 95px;
+  }
+  .body.team-page .first-block .container .bottom .content .comments .right-block {
+    width: 498px;
+  }
+  .body.team-page .first-block .container .bottom .content{
+    padding: 27px 0 41px 47px;
+  }
+  .bottom-comments-hr{
+    display: none;
+    height: 1px;
+    width: 100%;
+    border: none;
+    background-color: #8B8B8B;
+  }
+  .small-social-logo{
+    display: flex;
+  }
+  .body.team-page .first-block .container .top .content{
+    margin: auto;
+  }
+  .body.team-page .second-block .nyca-logo{
+    margin: 25px auto;
+  }
+}
+
+@media screen and (min-width: 650px) {
+
+  .body.team-page .first-block {
+    margin-top: 150px;
+    justify-content: center;
+    display: flex;
+  }
+  .body.team-page .first-block .container .top .content .text-info .horizontal-line {
+    background-color: #000000;
+    width: 112px;
+    height: 1px;
+    margin-top: 97px;
+    margin-bottom: 24px;
+  }
+  .body.team-page .first-block .container .top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 140px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .small-social-logo{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  .body.team-page .first-block {
+    justify-content: center;
+    display: flex;
+  }
+  .body.team-page .first-block .container .top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 58px;
+  }
+  .body.team-page .first-block .container .top .content .text-info .horizontal-line {
+    background-color: #000000;
+    width: 20%;
+    height: 1px;
+    /* margin-top: 97px; */
+    margin-bottom: 24px;
+  }
+}
+@media screen and (min-width: 1290px) {
+  .body.team-page .first-block .container .bottom {
+    margin-top: 225px;
+  }
+}
+@media screen and (max-width: 1280px){
+  .body.team-page .second-block .nyca-logo{
+    margin: 60px auto;
+  }
+  .small-social-logo{
+    display: grid;
+    grid-row: 1;
+    grid-template-areas: "a a ." ". b b" "c c .";
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    margin: auto;
+  }
+  .bottom-comments-hr{
+    display: block;
+  }
+  .body.team-page .first-block .container .bottom .content{
+    padding: 44px 0;
+  }
+  .body.team-page .first-block .container .bottom .content .comments{
+    gap: 40px;
+    flex-direction: row;
+  }
+  .body.team-page .first-block .container .bottom{
+    margin-top: 67px;
+  }
+  .body.team-page .first-block .container .bottom .content .comments .right-block, .body.team-page .first-block .container .bottom .content .comments .left-block{
+    width: 100%;
+    padding: 0 44px;
+  }
+  .body.team-page .first-block .container .bottom{
+    max-width: 95%;
+    margin: auto;
+  }
+  .body.team-page .first-block .container .top .content{
+    flex-direction: column;
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 770px){
+  .body.team-page .second-block .nyca-logo{
+    margin: 60px auto;
+  }
+  .small-social-logo{
+    display: grid;
+    grid-row: 1;
+    grid-template-areas: "a a ." ". b b" "c c .";
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    margin: auto;
+  }
+  .bottom-comments-hr{
+    display: block;
+  }
+  .body.team-page .first-block .container .bottom .content{
+    padding: 44px 0;
+  }
+  .body.team-page .first-block .container .bottom .content .comments{
+    gap: 40px;
+    flex-direction: column;
+  }
+  .body.team-page .first-block .container .bottom .content .comments .right-block, .body.team-page .first-block .container .bottom .content .comments .left-block{
+    width: 100%;
+    padding: 0 44px;
+  }
+  .body.team-page .first-block .container .bottom{
+    max-width: 95%;
+    margin: auto;
+  }
+  .body.team-page .first-block .container .top .content{
+    flex-direction: column;
+    margin-left: 0px;
+  }
+}
+.body.team-page .first-block .container {
+  width: 1170px;
+}
+
+.body.team-page .first-block .container .top .content {
+  display: flex;
+}
+.body.team-page .first-block .container .top .content .logo-elements {
+  margin-right: 56px;
+  -moz-user-select: none;
+  -o-user-select:none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.body.team-page .first-block .container .top .content .logo-elements h1 {
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 94px;
+  color: #000000;
+}
+.body.team-page .first-block .container .top .content .logo-elements .large-logo {
+  width: 314px;
+  height: 77px;
+  margin-left: 6px;
+}
+
+.body.team-page .first-block .container .top .content .text-info .horizontal-line p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.body.team-page .first-block .container .bottom {
+  margin-top: 225px;
+  padding-bottom: 42px;
+  display: flex;
+}
+.body.team-page .first-block .container .bottom .content {
+  border-radius: 25px;
+  width: 100%;
+  background: #FFFFFF;
+  box-shadow: -10px 20px 40px rgba(0, 0, 0, 0.25);
+}
+.body.team-page .first-block .container .bottom .content .comments {
+  width: 100%;
+  display: flex;
+}
+.body.team-page .first-block .container .bottom .content .comments .left-block .quotation-marks-svg, .body.team-page .first-block .container .bottom .content .comments .right-block .quotation-marks-svg {
+  margin-bottom: 27px;
+  -moz-user-select: none;
+  -o-user-select:none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.body.team-page .first-block .container .bottom .content .comments .left-block p, .body.team-page .first-block .container .bottom .content .comments .right-block p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.body.team-page .first-block .container .bottom .content .comments .left-block .author-info, .body.team-page .first-block .container .bottom .content .comments .right-block .author-info {
+  margin-top: 58px;
+  align-items: center;
+  display: flex;
+}
+.body.team-page .first-block .container .bottom .content .comments .left-block .author-info .avatar, .body.team-page .first-block .container .bottom .content .comments .right-block .author-info .avatar {
+  margin-right: 19px;
+}
+.body.team-page .first-block .container .bottom .content .comments .left-block .author-info h3, .body.team-page .first-block .container .bottom .content .comments .right-block .author-info h3 {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 23px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.body.team-page .first-block .container .bottom .content .comments .left-block .author-info h3 span, .body.team-page .first-block .container .bottom .content .comments .right-block .author-info h3 span {
+  font-weight: 900;
+}
+.body.team-page .second-block {
+  margin-top: 108px;
+  margin-bottom: 58px;
+  justify-content: center;
+  text-align: center;
+}
+.body.team-page .second-block h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #000000;
+}
+.body.team-page .second-block p {
+  margin-top: 87px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.body.team-page .second-block .nyca-logo {
+  -moz-user-select: none;
+  -o-user-select:none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.body.team-page .second-block h5 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.body.team-page .second-block .button {
+  cursor: pointer;
+  width: 172px;
+  height: 39px;
+  border: 1px solid #000000;
+  border-radius: 23.5px;
+  display: flex;
+  margin: 87px auto 0;
+}
+.body.team-page .second-block .button a {
+  margin: auto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.body.team-page .second-block .button:hover {
+  background-color: #000000;
+}
+.body.team-page .second-block .button:hover a {
+  color: #FFFFFF;
+}
+
+#whatsapp-logo {
+  margin-left: 18px;
+}
+
+#google-logo {
+  margin-left: 6px;
+}
+
+#facebook-logo {
+  margin-left: 8px;
+}
+
+#stanford-business-logo {
+  margin-left: 50px;
+}
+
+#kinsey-and-company-logo {
+  margin-left: 11px;
+}
+
+/*# sourceMappingURL=team.css.map */

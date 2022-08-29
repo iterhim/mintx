@@ -1,0 +1,130 @@
+.body.questions-page {
+  justify-content: center;
+  height: 100%;
+}
+
+@media screen and (min-width: 650px) {
+  .body.questions-page .block .top h1 {
+    font-size: 90px;
+  }
+  .body.questions-page .block .bottom:nth-child(2){
+    flex-direction: row;
+  }
+  .body.questions-page .block .bottom .left-block .button, .body.questions-page .block .bottom .central-block .button, .body.questions-page .block .bottom .right-block .button {
+    margin: 37px auto 0;
+  }
+  .body.questions-page .block {
+    margin: 51px auto 124px;
+  }
+
+  }
+@media screen and (max-width: 650px) {
+  .body.questions-page .block .top p{
+    width: 80%;
+    margin: auto;
+  }
+  .body.questions-page .block .top h1 {
+    font-size: 50px;
+  }
+  .body.questions-page .block {
+    margin: 51px auto 0;
+  }
+  .body.questions-page .block .bottom:nth-child(2){
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+  }
+  .body.questions-page .block .bottom .left-block, .body.questions-page .block .bottom .central-block, .body.questions-page .block .bottom .right-block{
+    /*margin: inherit;*/
+  }
+  .body.questions-page .block .bottom .left-block .button, .body.questions-page .block .bottom .central-block .button, .body.questions-page .block .bottom .right-block .button{
+    margin: 10px 0;
+    margin-bottom: 100px;
+  }
+}
+@media screen and (max-width: 770px) and (min-width: 650px) {
+  .body.questions-page .block .bottom:nth-child(2){
+     flex-direction: row;
+     margin: 20px;
+   }
+}
+@media screen and (max-width: 770px)  {
+  .body.questions-page .block .bottom{
+    flex-direction: column;
+    justify-content: space-between;
+    height: 42px;
+  }
+
+}
+.body.questions-page .block {
+  max-width: 878px;
+}
+.body.questions-page .block .top {
+  justify-content: center;
+  text-align: center;
+}
+.body.questions-page .block .top h1 {
+  font-weight: 700;
+  line-height: 94px;
+  color: #000000;
+}
+.body.questions-page .block .top p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  margin-top: 54px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.body.questions-page .block .top p a {
+  color: #08BDD4;
+}
+.body.questions-page .block .bottom {
+  margin-top: 76px;
+  display: flex;
+}
+.body.questions-page .block .bottom .central-block {
+  margin: 0 auto;
+}
+.body.questions-page .block .bottom .left-block, .body.questions-page .block .bottom .central-block, .body.questions-page .block .bottom .right-block {
+  justify-content: center;
+  text-align: center;
+  align-items: end;
+}
+.body.questions-page .block .bottom .left-block h5, .body.questions-page .block .bottom .central-block h5, .body.questions-page .block .bottom .right-block h5 {
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.body.questions-page .block .bottom .left-block h6, .body.questions-page .block .bottom .central-block h6, .body.questions-page .block .bottom .right-block h6 {
+  margin-top: 4px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+}
+.body.questions-page .block .bottom .left-block .button, .body.questions-page .block .bottom .central-block .button, .body.questions-page .block .bottom .right-block .button {
+  display: inline-flex;
+  border: 1px solid #000000;
+  border-radius: 23.5px;
+  cursor: pointer;
+  height: 39px;
+  padding: 0 24px;
+}
+.body.questions-page .block .bottom .left-block .button a, .body.questions-page .block .bottom .central-block .button a, .body.questions-page .block .bottom .right-block .button a {
+  margin: auto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.body.questions-page .block .bottom .left-block .button:hover, .body.questions-page .block .bottom .central-block .button:hover, .body.questions-page .block .bottom .right-block .button:hover {
+  background: #000000;
+}
+.body.questions-page .block .bottom .left-block .button:hover a, .body.questions-page .block .bottom .central-block .button:hover a, .body.questions-page .block .bottom .right-block .button:hover a {
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=support.css.map */

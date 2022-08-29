@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MINTX</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/team.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="site">
+    <div class="header">
+        <div class="nav">
+            <a href="./index.html"><img src="./svg/logo2.svg" alt="" class="logo"></a>
+
+            <nav class="menu">
+                <span class="nav-elements">
+                <a href="./nft-creators.html" class="nav-pages">Создатели NFT</a>
+                <a href="./developers.html" class="nav-pages">Разработчики</a>
+                <a href="./team.html" class="nav-pages selected">Команда</a>
+                <a href="./questions.html" class="nav-pages">Вопросы</a>
+                <a href="./support.html" class="nav-pages">Поддержка</a>
+            </span>
+                <div class="sign-up-button">
+                    <a href="" class="sign-up-link">Войти</a>
+                </div>
+            </nav>
+            <header>
+                <div class="menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </header>
+        </div>
+    </div>
+    <div class="body team-page">
+        <div class="home-gradient-background">
+            <div class="cut-gradient-background"></div>
+        </div>
+        <div class="first-block">
+            <div class="container">
+                <div class="top">
+                    <div class="content">
+                        <div class="logo-elements">
+                            <h1>Мы</h1>
+                            <img src="./svg/large-logo.svg" alt="" class="large-logo">
+                        </div>
+                        <div class="text-info">
+                            <div class="horizontal-line"></div>
+                            <p>Инструмент, позволяющий сделать NFT <br> доступными для всех</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="content">
+                        <div class="comments">
+                            <div class="left-block">
+                                <img src="./svg/quotation-marks-svg.svg" alt="" class="quotation-marks-svg">
+                                <p>Я люблю NFT, но мне никогда не удавалось
+                                    вовлечь в них своих друзей или семью,
+                                    процесс адаптации был слишком болезненным. <br>
+                                    Мы создали MINTX, чтобы исправить это.</p>
+                                <div class="author-info">
+                                    <img src="./svg/avatar-1.svg" alt="" class="avatar">
+                                    <h3><span>Альфонсо Гомес-Хордана</span><br>
+                                        Соучредитель</h3>
+                                    <div class="small-social-logo">
+                                        <img src="./svg/whatsapp-logo.svg" alt="" class="communication-logo"
+                                             id="whatsapp-logo">
+                                        <img src="./svg/google-logo.svg" alt="" class="communication-logo"
+                                             id="google-logo">
+                                        <img src="./svg/facebook-logo.svg" alt="" class="communication-logo"
+                                             id="facebook-logo">
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="bottom-comments-hr">
+                            <div class="right-block">
+                                <img src="./svg/quotation-marks-svg.svg" alt="" class="quotation-marks-svg">
+                                <p>NFT — это больше, чем изображения обезьян.
+                                    Это новый вычислительный примитив с
+                                    огромным неиспользованным потенциалом.
+                                    Мы стремимся сделать их доступными для всех.</p>
+                                <div class="author-info">
+                                    <img src="./svg/avatar-2.svg" alt="" class="avatar">
+                                    <h3><span>Родри Фернандес Тоуза</span><br>
+                                        Соучредитель</h3>
+                                    <div class="small-social-logo">
+                                        <img src="./svg/stanford-business-logo.svg" alt="" class="communication-logo"
+                                             id="stanford-business-logo">
+                                        <img src="./svg/kinsey-and-company-logo.svg" alt="" class="communication-logo"
+                                             id="kinsey-and-company-logo">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="second-block">
+            <h1>Наши партнеры и инвесторы доверяют</h1>
+            <p>При поддержке инвесторов и строителей мирового класса,
+                которые были ранними в Paypal, <br>
+                Square, Affirm, Revolut, Ramp, Plaid, Coinbase.</p>
+            <img src="./svg/nyca-logo.svg" alt="" class="nyca-logo">
+            <h5>+15 стратегических ангелов</h5>
+            <div class="button">
+                <a href="#">Работать с нами</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="button-nav">
+            <a href="./index.html"><img src="./svg/logo2.svg" alt="" class="logo"></a>
+            <span class="nav-elements">
+                <a href="./nft-creators.html" class="nav-pages">Создатели NFT</a>
+                <a href="./developers.html" class="nav-pages">Разработчики</a>
+                <a href="./team.html" class="nav-pages selected">Команда</a>
+                <a href="./questions.html" class="nav-pages">Вопросы</a>
+                <a href="./support.html" class="nav-pages">Поддержка</a>
+            </span>
+            <div class="connection">
+                <img src="./svg/Twitter.svg" alt="" class="connection-icon">
+                <img src="./svg/Telegram.svg" alt="" class="connection-icon">
+                <img src="./svg/Discord.svg" alt="" class="connection-icon">
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    let menuBtn = document.querySelector('.menu-btn');
+    let show = document.querySelector('.right-block');
+    let body = document.querySelector('body');
+    let menu = document.querySelector('.menu');
+    menuBtn.addEventListener('click', function(){
+        show.classList.toggle('visible');
+        body.classList.toggle('no_scroll');
+        menuBtn.classList.toggle('active');
+        menu.classList.toggle('active');
+    })
+</script>
+</body>
+</html>

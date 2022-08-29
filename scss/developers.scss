@@ -1,0 +1,177 @@
+.body.developers-page{
+  .first-block{
+    margin-top: 105px;
+    .container{
+      width: 1170px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      .left-block{
+        margin: auto 0;
+        .head-text{
+          h4{
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 23px;
+            color: #08BDD4;
+          }
+          h1{
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 47px;
+            color: #FFFFFF;
+          }
+        }
+        p{
+          margin-top: 17px  ;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 16px;
+          color: rgba(255, 255, 255, 0.8);
+        }
+        .buttons{
+          margin-top: 25px;
+          display: flex;
+          .button-documents{
+            margin-right: 17px;
+            width: 128px;
+            height: 39px;
+            background: linear-gradient(97.04deg, #22BBC8 9.28%, #24D7A7 92.55%);
+            border-radius: 23.5px;
+            display: flex;
+            cursor: pointer;
+            a{
+              margin: auto;
+              font-weight: 700;
+              font-size: 16px;
+              line-height: 19px;
+              color: #FFFFFF;
+            }
+          }
+          .button-start{
+            width: 101px;
+            height: 39px;
+            border: 1px solid #FFFFFF;
+            border-radius: 23.5px;
+            display: flex;
+            cursor: pointer;
+            a{
+              margin: auto;
+              font-weight: 700;
+              font-size: 16px;
+              line-height: 19px;
+              color: #FFFFFF;
+            }
+            &:active{
+              background: #FFFFFF;
+              a{
+                color: #000000;
+              }
+            }
+          }
+        }
+      }
+      .right-block{
+        margin: 0 auto;
+        .window-with-code-img{
+        }
+      }
+    }
+  }
+  .second-block{
+    margin-top: 362px;
+    margin-bottom: 56px;
+    .container{
+      width: 1170px;
+      margin: 0 auto;
+      .benefits{
+        display: flex;
+        width: 100%;
+        .left-block{
+          justify-content: start;
+        }
+        .central-block{
+          justify-content: center;
+          margin: 0 auto;
+        }
+        .right-block{
+          justify-content: end;
+        }
+        .left-block, .central-block, .right-block{
+          width: 338px;
+          height: 224px;
+          background: linear-gradient(123.53deg, rgba(39, 54, 58, 0.8) 8.27%, rgba(6, 25, 32, 0.8) 87.81%);
+          border-radius: 10px;
+          padding: 28px 15px 0 35px;
+          .black-benefits-svg{
+            height: 43px;
+            margin-bottom: 9px;
+          }
+          h4{
+            font-weight: 900;
+            font-size: 15.5px;
+            line-height: 21px;
+            color: #08BDD4;
+          }
+          h5{
+            margin-top: 18px;
+            font-weight: 900;
+            font-size: 13.5px;
+            line-height: 19px;
+            color: rgba(255, 255, 255, 0.8);
+          }
+        }
+      }
+      .blockchain-block{
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        margin-top: 88px;
+        h1{
+          font-weight: 700;
+          font-size: 50px;
+          line-height: 59px;
+          color: #FFFFFF;
+        }
+        .supporting-blockchains{
+          justify-content: center;
+          margin-top: 57px;
+          display: flex;
+          padding: 0 97px;
+          .blockchain{
+            width: 200px;
+            height: 200px;
+            margin: auto;
+            .blockchain-logo-position{
+              margin-top: 2px;
+              height: 132px;
+              align-items: center;
+              justify-content: center;
+              display: flex;
+              .blockchain-img{
+                margin: auto;
+              }
+            }
+            .blockchain-name{
+              margin: 18px auto 0;
+              display: inline-flex;
+              height: 43px;
+              width: auto;
+              background: linear-gradient(123.53deg, rgba(39, 54, 58, 0.8) 8.27%, rgba(6, 25, 32, 0.8) 87.81%);
+              border-radius: 100px;
+              padding: 0 24px;
+              align-items: center;
+              h3{
+                margin: auto;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 28px;
+                color: #FFFFFF;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

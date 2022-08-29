@@ -1,0 +1,1217 @@
+@media screen and (min-width: 768px) {
+    .body.nft-creators-page .first-block .benefits .left-box p, .body.nft-creators-page .first-block .benefits .central-box p, .body.nft-creators-page .first-block .benefits .right-box p {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        color: rgba(0, 0, 0, 0.8);
+    }
+
+    .body.nft-creators-page .third-block .wallet-block .container .left-block .elements h1 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 47px;
+        text-align: justify;
+        color: #000000;
+    }
+
+    .body.nft-creators-page .third-block .wallet-block .container .left-block .elements .button {
+        width: 92px;
+        height: 39px;
+        background: #000000;
+        border: 1px solid #000000;
+        border-radius: 23.5px;
+        display: flex;
+    }
+
+}
+
+@media screen and (min-width: 650px) {
+
+    .body.nft-creators-page .fifth-block .added-info-block h1 {
+        margin: 0 62px 37px;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 70px;
+        text-align: center;
+        color: #000000;
+    }
+    .body.nft-creators-page .first-block .benefits .left-box h3, .body.nft-creators-page .first-block .benefits .central-box h3, .body.nft-creators-page .first-block .benefits .right-box h3{
+        font-size: 40px;
+    }
+    .body.nft-creators-page .third-block .blockchain-block {
+        width: 1170px;
+        margin: 355px auto 0;
+    }
+    .body.nft-creators-page .third-block .wallet-block .container {
+        width: 1170px;
+        margin: 0 auto;
+        display: flex;
+    }
+    .body.nft-creators-page .first-block .benefits {
+        margin-top: 193px;
+    }
+
+    .body.nft-creators-page .third-block {
+        margin-top: 226px;
+    }
+
+    .body.nft-creators-page .first-block .payment-credit-card .left-block .head-text {
+        margin-top: 67px;
+        margin-right: 82px;
+    }
+
+    .body.nft-creators-page .first-block .payment-credit-card .right-block {
+        width: 50%;
+    }
+
+    .body.nft-creators-page .fourth-block {
+        height: 900px;
+    }
+
+    .bottom-contacts-hr {
+        width: 300px;
+        margin: 40px 0;
+        height: 0.5px;
+        border: none;
+        /*transform: rotate(90deg);*/
+        background-color: #b7bec9;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .body.nft-creators-page .fifth-block .added-info-block h1 {
+        margin: 0 62px 37px;
+        font-weight: 700;
+        line-height: 70px;
+        text-align: center;
+        color: #000000;
+    }
+    .body.nft-creators-page .first-block .benefits .left-box h3, .body.nft-creators-page .first-block .benefits .central-box h3, .body.nft-creators-page .first-block .benefits .right-box h3{
+        font-size: 25px;
+    }
+    .body.nft-creators-page .third-block .blockchain-block {
+        width: 1170px;
+        margin:  auto 0;
+    }
+    .body.nft-creators-page .third-block .wallet-block .container {
+        width: 1170px;
+        margin: 80px auto;
+        display: flex;
+    }
+    .body.nft-creators-page .first-block .benefits {
+        margin-top: 0;
+    }
+    .body.nft-creators-page .third-block {
+        margin-top: 10px;
+    }
+
+    .bottom-contacts-hr {
+        width: 90%;
+        margin: 40px 0;
+        height: 0.5px;
+        border: none;
+        transform: rotate(0deg);
+        background-color: #b7bec9;
+    }
+
+    .body.nft-creators-page .third-block .blockchain-block .supporting-blockchains {
+            grid-template-areas:
+            "a"
+            "a"
+            "b"
+            "b";
+    }
+
+    .body.nft-creators-page .fourth-block {
+        height: 583px;
+    }
+
+    .body.nft-creators-page .first-block .payment-credit-card .right-block .example-phone {
+        /*visibility: visible;*/
+    }
+
+    .body.nft-creators-page .first-block .payment-credit-card .right-block {
+        position: relative;
+        display: flex;
+        justify-content: end;
+        width: 81%;
+        margin-bottom: 140px;
+    }
+
+    .body.nft-creators-page .first-block .payment-credit-card .left-block p {
+        max-width: 100%;
+    }
+
+    .body.nft-creators-page .first-block .payment-credit-card {
+        flex-direction: column;
+    }
+
+    .body.nft-creators-page .first-block .payment-credit-card .left-block .head-text {
+        margin-top: 0;
+        margin-right: 0;
+    }
+    .body.nft-creators-page .third-block .blockchain-block h1{
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .body.nft-creators-page .third-block .blockchain-block h1{
+        font-size: 35px;
+    }
+    .body.nft-creators-page .third-block .wallet-block .container .left-block .elements .button {
+        width: auto;
+    }
+
+    .body.nft-creators-page .third-block .wallet-block .container .left-block .elements h1 {
+        text-align: center;
+    }
+
+    .body.nft-creators-page .fifth-block .added-info-block {
+        margin: auto 10px auto 10px;
+    }
+
+    .body.nft-creators-page .first-block .benefits {
+        flex-direction: column;
+        margin: 0 auto;
+        width: 70%;
+        justify-items: center;
+    }
+
+    .body.nft-creators-page .first-block .benefits .left-box {
+        text-align: center;
+        height: auto;
+        font-size: 24px;
+    }
+
+    .body.nft-creators-page .first-block .benefits .central-box {
+        text-align: center;
+        height: auto;
+        font-size: 24px;
+    }
+
+    .body.nft-creators-page .first-block .benefits .right-box {
+        text-align: center;
+        height: auto;
+    }
+
+    .body.nft-creators-page .first-block .benefits .left-box p, .body.nft-creators-page .first-block .benefits .central-box p, .body.nft-creators-page .first-block .benefits .right-box p {
+        margin-top: 10px;
+        font-size: 15px;
+
+    }
+}
+
+.body.nft-creators-page .first-block {
+    width: 1170px;
+    margin: 47px auto 95px;
+}
+
+.body.nft-creators-page .first-block .payment-credit-card {
+    display: flex;
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .left-block {
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .left-block .head-text h4 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #08BDD4;
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .left-block .head-text h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #000000;
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .left-block p {
+    margin-top: 17px;
+    margin-bottom: 34px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .left-block .buttons {
+    display: flex;
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .left-block .buttons .button-start {
+    margin-right: 16px;
+    width: 95px;
+    height: 39px;
+    background: linear-gradient(97.04deg, #22BBC8 9.28%, #24D7A7 92.55%);
+    border-radius: 23.5px;
+    display: flex;
+    cursor: pointer;
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .left-block .buttons .button-start a {
+    margin: auto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .left-block .buttons .button-demo {
+    width: 177px;
+    height: 39px;
+    border: 1px solid #000000;
+    border-radius: 23.5px;
+    display: flex;
+    cursor: pointer;
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .left-block .buttons .button-demo a {
+    margin: auto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .left-block .buttons .button-demo:hover {
+    background: #000000;
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .left-block .buttons .button-demo:hover a {
+    color: #FFFFFF;
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .left-block .card-logos {
+    margin-top: 21px;
+    display: flex;
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .left-block .card-logos #mir {
+    margin-right: 17px;
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .left-block .card-logos #visa {
+    margin-right: 23px;
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .right-block {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 140px;
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .right-block .example-window {
+    width: 439px;
+    height: 428.55px;
+    background: #242D30;
+    border-radius: 15px;
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .right-block .example-window .top {
+    width: 100%;
+    height: 32px;
+    background: #303D41;
+    border-radius: 15px 15px 0px 0px;
+    display: flex;
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .right-block .example-window .top .three-dots {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .right-block .example-window .top .three-dots .dot {
+    margin: auto 7px auto 0;
+    width: 10px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 100px;
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .right-block .example-window .bottom .container {
+    /*margin: 36px 36px 0 122px;*/
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .right-block .example-window .bottom .container .nft-item {
+    display: flex;
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .right-block .example-window .bottom .container .nft-item .nft-name {
+    margin-top: 17px;
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .right-block .example-window .bottom .container .nft-item .nft-name h2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .right-block .example-window .bottom .container .nft-item .nft-name h3 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .right-block .example-window .bottom .container .nft-item .nft-element {
+    width: 87px;
+    height: 87px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 8px;
+    display: flex;
+    justify-content: end;
+    margin-left: auto;
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .right-block .example-window .bottom .container .nft-item .nft-element .nft-image {
+    margin: auto;
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .right-block .example-window .bottom .container .nft-price {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    width: 100%;
+    height: 25px;
+    display: flex;
+    margin-top: 18px;
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .right-block .example-window .bottom .container .nft-price .left-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .right-block .example-window .bottom .container .nft-price .right-text {
+    margin-left: auto;
+    text-align: end;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .right-block .example-window .bottom .container .nft-buttons {
+    margin-top: 27px;
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .right-block .example-window .bottom .container .nft-buttons .button-buy {
+    height: 37px;
+    background: #303D41;
+    border-radius: 5px;
+    display: flex;
+    margin-bottom: 14px;
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .right-block .example-window .bottom .container .nft-buttons .button-buy a {
+    margin: auto;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .right-block .example-window .bottom .container .nft-buttons .button-wallet {
+    height: 37px;
+    border: 1px solid #303D41;
+    border-radius: 5px;
+    display: flex;
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .right-block .example-window .bottom .container .nft-buttons .button-wallet a {
+    margin: auto;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .right-block .example-phone {
+    position: absolute;
+    top: 67px;
+    width: 249px;
+    height: 502px;
+    padding: 11px 13px;
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .right-block .example-phone .phone-border {
+    position: absolute;
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .right-block .example-phone .phone-screen {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 11px 13px;
+    padding: 23px 13px;
+    background: linear-gradient(167.82deg, #A7F0F9 0%, #8EA4BB 100%);
+    mix-blend-mode: normal;
+    border-radius: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .right-block .example-phone .phone-screen .elements .input-elements {
+    margin-top: 27px;
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .right-block .example-phone .phone-screen .elements .input-elements .input-card, .body.nft-creators-page .first-block .payment-credit-card .right-block .example-phone .phone-screen .elements .input-elements .input-fio {
+    margin-bottom: 12px;
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .right-block .example-phone .phone-screen .elements .input-elements .button-buy {
+    margin-top: 27px;
+    width: 100%;
+    height: 37px;
+    background: #000000;
+    border-radius: 8px;
+    display: flex;
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .right-block .example-phone .phone-screen .elements .input-elements .button-buy a {
+    margin: auto;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .right-block .example-phone .phone-screen .elements .input-elements .input-title {
+    text-align: left;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 5px;
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .right-block .example-phone .phone-screen .elements .logo {
+    width: 93px;
+    height: 36px;
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .right-block .example-phone .phone-screen .elements h5 {
+    margin-top: 21px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.body.nft-creators-page .first-block .payment-credit-card .right-block .example-phone .phone-screen .elements h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.body.nft-creators-page .first-block .benefits {
+    display: flex;
+    width: 90%;
+}
+
+.body.nft-creators-page .first-block .benefits .left-box, .body.nft-creators-page .first-block .benefits .central-box, .body.nft-creators-page .first-block .benefits .right-box {
+    border: 2px solid #000000;
+    border-radius: 10px;
+    height: 250px;
+}
+
+.body.nft-creators-page .first-block .benefits .left-box h3, .body.nft-creators-page .first-block .benefits .central-box h3, .body.nft-creators-page .first-block .benefits .right-box h3 {
+    font-weight: 700;
+    line-height: 47px;
+    color: #000000;
+    border-bottom: 1px;
+    margin-right: 5px;
+}
+
+/*.body.nft-creators-page .first-block .benefits .left-box p, .body.nft-creators-page .first-block .benefits .central-box p, .body.nft-creators-page .first-block .benefits .right-box p {*/
+/*  font-weight: 400;*/
+/*  font-size: 20px;*/
+/*  line-height: 23px;*/
+/*  color: rgba(0, 0, 0, 0.8);*/
+/*}*/
+.body.nft-creators-page .first-block .benefits .left-box {
+    justify-content: left;
+    margin: auto;
+    padding: 1.25rem;
+}
+
+.body.nft-creators-page .first-block .benefits .left-box h3 {
+    margin-bottom: 10px;
+}
+
+.body.nft-creators-page .first-block .benefits .central-box {
+    margin: 20px auto;
+    justify-content: center;
+    padding: 1.25rem;
+}
+
+.body.nft-creators-page .first-block .benefits .right-box {
+    margin: auto;
+    justify-content: right;
+    padding: 1.25rem;
+}
+
+.body.nft-creators-page .second-block {
+    padding: 72px 0;
+    display: flex;
+    margin: 0 auto;
+    background: #E2E6E8;
+}
+
+.body.nft-creators-page .second-block .container {
+    margin: 0 auto;
+    display: flex;
+}
+
+.body.nft-creators-page .second-block .container .company-bottom-text {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.body.nft-creators-page .second-block .container .company-bottom-text p {
+    height: 23px;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.body.nft-creators-page .second-block .container .company-bottom-text .trust-company {
+    margin-top: 70px;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: 0.6;
+}
+
+.body.nft-creators-page .second-block .container .company-bottom-text .trust-company .company-top, .body.nft-creators-page .second-block .container .company-bottom-text .trust-company .company-bottom {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.body.nft-creators-page .second-block .container .company-bottom-text .trust-company .company-element {
+    margin: auto 19px auto 0;
+}
+
+.body.nft-creators-page .second-block .container .company-bottom-text .trust-company .company-element.last {
+    margin: auto 0;
+}
+
+.body.nft-creators-page .second-block .container .company-bottom-text .trust-company .company-bottom {
+    position: relative;
+    margin-top: -4px;
+}
+
+.body.nft-creators-page .second-block .container .company-bottom-text .trust-company .company-bottom .company-element {
+    margin: auto 33px auto 0;
+}
+
+.body.nft-creators-page .second-block .container .company-bottom-text .trust-company .company-bottom .company-element.last {
+    margin: auto 0;
+}
+
+.body.nft-creators-page .second-block .container .company-bottom-text .trust-company .company-bottom .company-element.first, .body.nft-creators-page .second-block .container .company-bottom-text .trust-company .company-bottom .company-element beforehand {
+    margin: auto 34px auto 0;
+}
+
+
+
+
+.body.nft-creators-page .third-block .wallet-block .container .left-block, .body.nft-creators-page .third-block .wallet-block .container .right-block {
+}
+
+.body.nft-creators-page .third-block .wallet-block .container .left-block {
+    display: flex;
+    align-items: center;
+}
+
+.body.nft-creators-page .third-block .wallet-block .container .left-block .elements h4 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #08BDD4;
+}
+
+.body.nft-creators-page .third-block .wallet-block .container .left-block .elements p {
+    margin-top: 17px;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.body.nft-creators-page .third-block .wallet-block .container .left-block .elements p span {
+    font-weight: 700;
+}
+
+.body.nft-creators-page .third-block .wallet-block .container .left-block .elements .button a {
+    margin: auto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.body.nft-creators-page .third-block .wallet-block .container .right-block {
+    padding-right: 30px;
+}
+
+.body.nft-creators-page .third-block .wallet-block .container .right-block .top {
+    display: flex;
+    align-items: end;
+}
+
+.body.nft-creators-page .third-block .wallet-block .container .right-block .top .first-card {
+    margin-right: 40px;
+    margin-top: auto;
+    position: relative;
+    width: 317px;
+    height: 206px;
+    background: #FFFFFF;
+    box-shadow: -10px 20px 40px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    display: flex;
+    padding: 0 20px;
+}
+
+.body.nft-creators-page .third-block .wallet-block .container .right-block .top .first-card .content {
+    margin: 23px auto 0;
+}
+
+.body.nft-creators-page .third-block .wallet-block .container .right-block .top .first-card .content .nft-item {
+    display: flex;
+}
+
+.body.nft-creators-page .third-block .wallet-block .container .right-block .top .first-card .content .nft-item .nft-name h2 {
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.body.nft-creators-page .third-block .wallet-block .container .right-block .top .first-card .content .nft-item .nft-name h3 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #8B8B8B;
+}
+
+.body.nft-creators-page .third-block .wallet-block .container .right-block .top .first-card .content .nft-item .nft-name h4 {
+    margin: 10px 0 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #08BDD4;
+}
+
+.body.nft-creators-page .third-block .wallet-block .container .right-block .top .first-card .content .nft-item .nft-element {
+    width: 96px;
+    height: 96px;
+    left: 168px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    display: flex;
+    margin-left: auto;
+}
+
+.body.nft-creators-page .third-block .wallet-block .container .right-block .top .first-card .content .nft-item .nft-element .nft-image {
+    margin: auto;
+    width: 82px;
+    height: 82px;
+    border-radius: 8px;
+}
+
+.body.nft-creators-page .third-block .wallet-block .container .right-block .top .first-card .content .nft-price {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    width: 267px;
+    height: 28px;
+    display: flex;
+    margin-top: 18px;
+}
+
+.body.nft-creators-page .third-block .wallet-block .container .right-block .top .first-card .content .nft-price .left-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.body.nft-creators-page .third-block .wallet-block .container .right-block .top .first-card .content .nft-price .right-text {
+    margin-left: auto;
+    text-align: end;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.body.nft-creators-page .third-block .wallet-block .container .right-block .top .second-card {
+    position: relative;
+}
+
+.body.nft-creators-page .third-block .wallet-block .container .right-block .top .second-card .content {
+    width: 198px;
+    height: 301px;
+    background: linear-gradient(162.44deg, #FFFFFF 4.55%, #C5D1D5 97.3%);
+    box-shadow: -19px 2px 40px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    position: relative;
+}
+
+.body.nft-creators-page .third-block .wallet-block .container .right-block .top .second-card .content .element-card .SIM-img {
+    width: 30px;
+    height: 35px;
+    left: 115px;
+    top: 26px;
+    position: absolute;
+}
+
+.body.nft-creators-page .third-block .wallet-block .container .right-block .top .second-card .content .element-card .mir-logo {
+    left: 27px;
+    top: 221px;
+    position: absolute;
+}
+
+.body.nft-creators-page .third-block .wallet-block .container .right-block .top .second-card .content .element-card p {
+    left: -27px;
+    top: 82px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    transform: rotate(90deg);
+}
+
+.body.nft-creators-page .third-block .wallet-block .container .right-block .top .second-card .content .element-card h6 {
+    left: 136px;
+    top: 47px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    transform: rotate(90deg);
+}
+
+.body.nft-creators-page .third-block .wallet-block .container .right-block .bottom {
+    padding-top: 30px;
+    padding-left: 85px;
+}
+
+.body.nft-creators-page .third-block .wallet-block .container .right-block .bottom .third-card {
+    width: 100%;
+    height: 317px;
+    background: linear-gradient(119.89deg, #36D9EB 3.18%, #6790C0 89.93%);
+    box-shadow: -10px 20px 40px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    padding: 0 36px;
+}
+
+.body.nft-creators-page .third-block .wallet-block .container .right-block .bottom .third-card .input-card {
+    padding-top: 36px;
+}
+
+.body.nft-creators-page .third-block .wallet-block .container .right-block .bottom .third-card .input-card .input-title {
+    margin-bottom: 11px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.body.nft-creators-page .third-block .wallet-block .container .right-block .bottom .third-card .button-buy {
+    margin-top: 25px;
+    width: 100%;
+    height: 52px;
+    background: #000000;
+    border-radius: 8px;
+    display: flex;
+}
+
+.body.nft-creators-page .third-block .wallet-block .container .right-block .bottom .third-card .button-buy a {
+    margin: auto;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.body.nft-creators-page .third-block .wallet-block .container .right-block .bottom .third-card .low-text {
+    margin-top: 21px;
+    display: flex;
+    justify-content: center;
+}
+
+.body.nft-creators-page .third-block .wallet-block .container .right-block .bottom .third-card .low-text h6 {
+    margin: auto 0 auto 7px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+
+.body.nft-creators-page .third-block .blockchain-block h1 {
+    margin-bottom: 97px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 70px;
+    color: #000000;
+}
+
+.body.nft-creators-page .third-block .blockchain-block .supporting-blockchains {
+}
+
+.body.nft-creators-page .third-block .blockchain-block .supporting-blockchains .blockchain {
+    width: 275px;
+    height: 275px;
+    background: #E5E8ED;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.body.nft-creators-page .third-block .blockchain-block .supporting-blockchains .blockchain .blockchain-logo-position {
+    margin-top: 15px;
+    height: 182px;
+    align-items: center;
+    display: flex;
+}
+
+.body.nft-creators-page .third-block .blockchain-block .supporting-blockchains .blockchain .blockchain-logo-position .blockchain-img {
+    margin: auto;
+}
+
+.body.nft-creators-page .third-block .blockchain-block .supporting-blockchains h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.body.nft-creators-page .third-block .blockchain-block .supporting-blockchains h6 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #747474;
+}
+
+.body.nft-creators-page .fourth-block {
+    margin-top: 229px;
+    width: 100%;
+    background: #242E31;
+    align-items: center;
+    display: flex;
+    margin-bottom: 98px;
+}
+
+.body.nft-creators-page .fourth-block .container {
+    margin: 0 auto;
+}
+
+.body.nft-creators-page .fourth-block .container .top {
+    /*padding: 0 41px;*/
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.body.nft-creators-page .fourth-block .container .top .left-block, .body.nft-creators-page .fourth-block .container .top .right-block {
+    padding-left: 56px;
+}
+
+.body.nft-creators-page .fourth-block .container .top .left-block h4, .body.nft-creators-page .fourth-block .container .top .right-block h4 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #08BDD4;
+}
+
+.body.nft-creators-page .fourth-block .container .top .left-block h1, .body.nft-creators-page .fourth-block .container .top .right-block h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+.body.nft-creators-page .fourth-block .container .top .left-block p, .body.nft-creators-page .fourth-block .container .top .right-block p {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-right: 90px;
+}
+
+.body.nft-creators-page .fourth-block .container .top .left-block p span, .body.nft-creators-page .fourth-block .container .top .right-block p span {
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.body.nft-creators-page .fourth-block .container .top .right-block {
+    padding-top: 23px;
+}
+
+.body.nft-creators-page .fourth-block .container .top .vertical-line {
+    height: 122px;
+    width: 1px;
+    position: absolute;
+    background-color: #FFFFFF;
+}
+
+.body.nft-creators-page .fourth-block .container .bottom {
+    width: 100%;
+    position: relative;
+}
+
+.body.nft-creators-page .fourth-block .container .bottom .comment-bg {
+    position: absolute;
+    background: #313E42;
+}
+
+.body.nft-creators-page .fourth-block .container .bottom .comment-bg.bg-1 {
+    width: 188px;
+    height: 24px;
+    left: 114px;
+    top: 103px;
+}
+
+.body.nft-creators-page .fourth-block .container .bottom .overlay {
+    z-index: 1;
+    position: absolute;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: linear-gradient(270deg, rgba(36, 46, 49) 5%, rgba(217, 217, 217, 0) 17%, rgba(217, 217, 217, 0) 83%, rgba(36, 46, 49) 99%);
+}
+
+.body.nft-creators-page .fourth-block .container .bottom .comment-img {
+    padding: 0 41px;
+}
+
+.body.nft-creators-page .fourth-block .container .bottom .many-comments {
+    width: 100%;
+    margin-top: 67px;
+}
+
+.body.nft-creators-page .fifth-block {
+    margin-top: 215px;
+    margin-bottom: 98px;
+    justify-content: center;
+}
+
+.body.nft-creators-page .fifth-block .integration {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.body.nft-creators-page .fifth-block .integration .left-block {
+    margin: auto 0;
+}
+
+.body.nft-creators-page .fifth-block .integration .left-block .head-text {
+    margin-bottom: 47px;
+}
+
+.body.nft-creators-page .fifth-block .integration .left-block .head-text h4 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #08BDD4;
+}
+
+.body.nft-creators-page .fifth-block .integration .left-block .head-text h1 {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.body.nft-creators-page .fifth-block .integration .left-block .elements {
+    margin-bottom: 48px;
+}
+
+.body.nft-creators-page .fifth-block .integration .left-block .elements .element {
+    display: flex;
+    align-items: center;
+    margin-top: 17px;
+}
+
+.body.nft-creators-page .fifth-block .integration .left-block .elements .element .integration-svg {
+    margin: auto 21px auto 0;
+}
+
+.body.nft-creators-page .fifth-block .integration .left-block .elements .element .text-container h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.body.nft-creators-page .fifth-block .integration .left-block .elements .element .text-container p {
+    margin-top: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.body.nft-creators-page .fifth-block .integration .left-block .button {
+    width: 153px;
+    height: 39px;
+    border: 1px solid #000000;
+    border-radius: 23.5px;
+    display: flex;
+    cursor: pointer;
+}
+
+.body.nft-creators-page .fifth-block .integration .left-block .button a {
+    margin: auto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.body.nft-creators-page .fifth-block .integration .left-block .button:hover {
+    background: #000000;
+}
+
+.body.nft-creators-page .fifth-block .integration .left-block .button:hover a {
+    color: #FFFFFF;
+}
+
+.body.nft-creators-page .fifth-block .integration .right-block {
+    position: relative;
+}
+
+.body.nft-creators-page .fifth-block .integration .right-block .big-window-img {
+}
+
+.body.nft-creators-page .fifth-block .added-info-block {
+    margin: 412px auto 0;
+    max-width: 90%;
+    align-items: center;
+    text-align: center;
+}
+
+
+.body.nft-creators-page .fifth-block .added-info-block p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.body.nft-creators-page .fifth-block .added-info-block .bottom-contacts {
+    margin-top: 74px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+
+.body.nft-creators-page .fifth-block .added-info-block .bottom-contacts .half-block {
+    width: 50%;
+    display: flex;
+}
+
+.body.nft-creators-page .fifth-block .added-info-block .bottom-contacts .half-block .left-block {
+}
+
+
+.body.nft-creators-page .fifth-block .added-info-block .bottom-contacts .half-block .right-block {
+}
+
+.body.nft-creators-page .fifth-block .added-info-block .bottom-contacts .contact-images {
+    width: 38px;
+}
+
+.body.nft-creators-page .fifth-block .added-info-block .bottom-contacts #discord-contact-images {
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    -webkit-mask-image: url("../svg/Discord.svg");
+    mask-image: url("../svg/Discord.svg");
+    background-color: #97A3B6;
+    width: 38px;
+}
+
+.body.nft-creators-page .fifth-block .added-info-block .bottom-contacts h5 {
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.body.nft-creators-page .fifth-block .added-info-block .bottom-contacts h6 {
+    margin-top: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.body.nft-creators-page .fifth-block .added-info-block .bottom-contacts .vertical-line {
+    position: absolute;
+    width: 1px;
+    height: 125px;
+    background-color: #97A3B6;
+}
+
+.body.nft-creators-page .fifth-block .added-info-block .bottom-contacts .button {
+    margin: 37px auto 0;
+    border: 1px solid #000000;
+    border-radius: 23.5px;
+    display: flex;
+    cursor: pointer;
+    height: 39px;
+}
+
+.body.nft-creators-page .fifth-block .added-info-block .bottom-contacts .button.first {
+    width: 113px;
+}
+
+.body.nft-creators-page .fifth-block .added-info-block .bottom-contacts .button.second {
+    width: 172px;
+}
+
+.body.nft-creators-page .fifth-block .added-info-block .bottom-contacts .button a {
+    margin: auto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.body.nft-creators-page .fifth-block .added-info-block .bottom-contacts .button:hover {
+    background: #000000;
+}
+
+.body.nft-creators-page .fifth-block .added-info-block .bottom-contacts .button:hover a {
+    color: #FFFFFF;
+}
+
+/*# sourceMappingURL=nft-creators.css.map */
