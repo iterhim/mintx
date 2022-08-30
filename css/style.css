@@ -99,7 +99,7 @@
 
 @media screen and (min-width: 1150px) {
     .body.home-page .second-block .coinage .coinage-container .left-part .window-2 {
-        left: -169px;
+        left: -188px;
     }
 
     .body.home-page .first-block .card-images {
@@ -154,6 +154,17 @@
 }
 
 @media screen and (max-width: 770px) {
+
+    .body.home-page .fourth-block .container .left-block .elements .element-card {
+        width: 214px;
+        height: 318px;
+        background: linear-gradient(162.44deg, #FFFFFF 4.55%, #C5D1D5 97.3%);
+        box-shadow: -19px 2px 40px rgba(0, 0, 0, 0.25);
+        border-radius: 12px 0px 20px;
+        display: none;
+        position: relative;
+    }
+
     .body.home-page .first-block .card-images .left-image #left-card {
         scale: 50%;
         left: -189px;
@@ -180,6 +191,8 @@
     .header .nav .sign-up-button {
         margin: 6px 30px auto auto;
     }
+
+
 }
 @media screen and (max-width: 900px) {
 
@@ -264,7 +277,15 @@
 }
 
 @media screen and (min-width: 770px) {
-
+    .body.home-page .fourth-block .container .left-block .elements .element-card {
+        width: 214px;
+        height: 318px;
+        background: linear-gradient(162.44deg, #FFFFFF 4.55%, #C5D1D5 97.3%);
+        box-shadow: -19px 2px 40px rgba(0, 0, 0, 0.25);
+        border-radius: 12px 0px 20px;
+        display: flex;
+        position: relative;
+    }
 
     .body.home-page .second-block .coinage .coinage-container .right-part .content {
         margin: 10px 30px auto 0;
@@ -715,6 +736,8 @@
         flex-direction: row;
         text-align: center;
         height: 100%;
+        width: 95%;
+        gap: 10px;
     }
 
     .body.home-page .fourth-block .container .right-block {
@@ -945,6 +968,7 @@
     .body.user-and-creators-questions-page .container .left-block {
         margin-bottom: 20px;
         width: 60%;
+        margin: inherit;
     }
 
     .body.user-and-creators-questions-page .container .left-block .bottom .content h5 {
@@ -1029,6 +1053,7 @@
         text-align: center;
         height: 100%;
         width: 100%;
+        gap: 50px
     }
 
     .body.home-page .fourth-block .container .left-block {
@@ -1311,6 +1336,9 @@ a {
     width: 100%;
 }
 
+.body{
+    overflow: hidden
+}
 .body.home-page {
     justify-content: center;
 }
@@ -1611,6 +1639,7 @@ a {
 
 .body.home-page .second-block .coinage .coinage-container .left-part .window-2 .window-elements .content {
     margin: 52px auto;
+    padding: 10px;
 }
 
 .body.home-page .second-block .coinage .coinage-container .left-part .window-2 .window-elements .content .window-2-img {
@@ -1930,7 +1959,7 @@ a {
 
 .body.home-page .third-block .block-content {
     margin: 0 auto;
-    width: 1334px;
+    width: 90%;
     display: flex;
     justify-content: center;
 }
@@ -2065,15 +2094,6 @@ a {
     align-items: end;
 }
 
-.body.home-page .fourth-block .container .left-block .elements .element-card {
-    width: 214px;
-    height: 318px;
-    background: linear-gradient(162.44deg, #FFFFFF 4.55%, #C5D1D5 97.3%);
-    box-shadow: -19px 2px 40px rgba(0, 0, 0, 0.25);
-    border-radius: 12px 0px 20px;
-    display: flex;
-    position: relative;
-}
 
 .body.home-page .fourth-block .container .left-block .elements .element-card .SIM-img {
     position: absolute;
@@ -2383,7 +2403,9 @@ a {
     margin-left: 18px;
     margin-right: 14px;
 }
-
+.body{
+    overflow: hidden;
+}
 .site.black {
     background-color: #000F14;
 }

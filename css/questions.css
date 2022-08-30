@@ -1,4 +1,9 @@
 @media screen and (min-width: 700px) {
+    .body.user-and-creators-questions-page .container .left-block .top {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .body.user-and-creators-questions-page .container .left-block {
         margin-right: 83px;
     }
@@ -18,6 +23,10 @@
 }
 
 @media screen and (max-width: 700px) {
+    .body.user-and-creators-questions-page .container .left-block .top {
+        align-items: center;
+        justify-content: center;
+    }
     .body.user-and-creators-questions-page .container .left-block .bottom {
         display: none;
     }
@@ -151,7 +160,7 @@
 }
 
 .body.user-and-creators-questions-page .container {
-    width: 1170px;
+    width: 90%;
     height: auto;
     margin: 20px;
     display: flex;
@@ -160,11 +169,7 @@
 .body.user-and-creators-questions-page .container .left-block {
 }
 
-.body.user-and-creators-questions-page .container .left-block .top {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 .body.user-and-creators-questions-page .container .left-block .top a {
     font-weight: 700;
