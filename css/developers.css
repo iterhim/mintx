@@ -82,7 +82,7 @@
     }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 900px) {
     .menu-btn span {
         width: 30px;
         height: 2px;
@@ -93,6 +93,9 @@
         background-color: #FFFFFF;
         transition: all 0.5s;
     }
+}
+@media screen and (max-width: 770px) {
+
 
     .site.black .header .nav .nav-elements {
         margin: 10px auto;
@@ -150,6 +153,7 @@
         margin-top: 50px;
     }
 }
+
 
 .body.developers-page .second-block .container .blockchain-block .supporting-blockchains {
     display: flex;

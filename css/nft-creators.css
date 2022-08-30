@@ -81,9 +81,9 @@
 @media screen and (max-width: 650px) {
 
     .body.nft-creators-page .fifth-block .added-info-block h1 {
-        margin: 0 62px 37px;
+        /*margin: 0 62px 37px;*/
         font-weight: 700;
-        line-height: 70px;
+        /*line-height: 70px;*/
         text-align: center;
         color: #000000;
     }
@@ -156,6 +156,24 @@
     }
 }
 
+@media screen and (min-width: 900px) {
+    .body.nft-creators-page .first-block .benefits .left-box, .body.nft-creators-page .first-block .benefits .central-box, .body.nft-creators-page .first-block .benefits .right-box{
+        height: 250px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .body.nft-creators-page .first-block .benefits .left-box {
+        height: auto;
+    }
+
+    .body.nft-creators-page .first-block .benefits .central-box {
+        height: auto;
+    }
+
+    .body.nft-creators-page .first-block .benefits .right-box {
+        height: auto;
+    }
+}
 @media screen and (max-width: 768px) {
     .body.nft-creators-page .third-block .blockchain-block h1{
         font-size: 35px;
@@ -172,12 +190,7 @@
         margin: auto 10px auto 10px;
     }
 
-    .body.nft-creators-page .first-block .benefits {
-        flex-direction: column;
-        margin: 0 auto;
-        width: 70%;
-        justify-items: center;
-    }
+
 
     .body.nft-creators-page .first-block .benefits .left-box {
         text-align: center;
@@ -514,13 +527,14 @@
 
 .body.nft-creators-page .first-block .benefits {
     display: flex;
-    width: 90%;
+    width: 98%;
+    gap: 10px;
+    margin: auto;
 }
 
 .body.nft-creators-page .first-block .benefits .left-box, .body.nft-creators-page .first-block .benefits .central-box, .body.nft-creators-page .first-block .benefits .right-box {
     border: 2px solid #000000;
     border-radius: 10px;
-    height: 250px;
 }
 
 .body.nft-creators-page .first-block .benefits .left-box h3, .body.nft-creators-page .first-block .benefits .central-box h3, .body.nft-creators-page .first-block .benefits .right-box h3 {
