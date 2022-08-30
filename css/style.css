@@ -166,13 +166,14 @@
     }
 
     .body.home-page .first-block .card-images .left-image #left-card {
-        scale: 50%;
+        transform: scale(.5);
         left: -189px;
     }
 
     .body.home-page .first-block .card-images .right-image #right-card {
         right: -180px;
-        scale: 50%;
+        transform: scale(.5);
+
     }
 
     .body.home-page .first-block .card-images {
@@ -277,6 +278,13 @@
 }
 
 @media screen and (min-width: 770px) {
+    .body.home-page .second-block .security {
+        width: 75%;
+        border-radius: 25px;
+        display: flex;
+        margin: 304px auto 0;
+        justify-content: center;
+    }
     .body.home-page .fourth-block .container .left-block .elements .element-card {
         width: 214px;
         height: 318px;
@@ -298,7 +306,13 @@
 }
 
 @media screen and (max-width: 770px) {
-
+    .body.home-page .second-block .security {
+        width: 90%;
+        border-radius: 25px;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
     .body.home-page .second-block .security .left-part, .body.home-page .second-block .security .right-part {
         left: 0;
         margin: auto;
@@ -339,9 +353,6 @@
         margin: 148px auto 44px;
     }
 
-    .body.home-page .second-block .security {
-        width: 50%;
-    }
 
     .body.nft-creators-page .first-block .payment-credit-card .right-block .example-phone {
         left: 0;
@@ -547,7 +558,7 @@
     }
 
     .body.home-page .second-block .security .left-part, .body.home-page .second-block .security .right-part {
-        max-width: 90%;
+        max-width: fit-content;
     }
 
     .body.home-page .second-block .coinage .coinage-container {
@@ -1752,15 +1763,6 @@ a {
     font-weight: 700;
     color: #FFFFFF;
 }
-
-.body.home-page .second-block .security {
-    width: 1170px;
-    border-radius: 25px;
-    display: flex;
-    margin: 304px auto 0;
-    justify-content: center;
-}
-
 
 .body.home-page .second-block .security .left-part .head-info h4 {
     font-weight: 500;

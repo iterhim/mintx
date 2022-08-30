@@ -26,7 +26,12 @@
 }
 
 @media screen and (min-width: 650px) {
-
+    .body.nft-creators-page .fourth-block .container .top .left-block h1, .body.nft-creators-page .fourth-block .container .top .right-block h1 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 47px;
+        color: #FFFFFF;
+    }
     .body.nft-creators-page .fifth-block .added-info-block h1 {
         margin: 0 62px 37px;
         font-weight: 700;
@@ -79,7 +84,13 @@
 }
 
 @media screen and (max-width: 650px) {
-
+    .body.nft-creators-page .fourth-block .container .top .left-block h1, .body.nft-creators-page .fourth-block .container .top .right-block h1 {
+        font-weight: 700;
+        width: 50%;
+        font-size: 25px;
+        /*line-height: 47px;*/
+        color: #FFFFFF;
+    }
     .body.nft-creators-page .fifth-block .added-info-block h1 {
         /*margin: 0 62px 37px;*/
         font-weight: 700;
@@ -958,12 +969,7 @@
     color: #08BDD4;
 }
 
-.body.nft-creators-page .fourth-block .container .top .left-block h1, .body.nft-creators-page .fourth-block .container .top .right-block h1 {
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 47px;
-    color: #FFFFFF;
-}
+
 
 .body.nft-creators-page .fourth-block .container .top .left-block p, .body.nft-creators-page .fourth-block .container .top .right-block p {
     margin-top: 20px;
@@ -1159,15 +1165,6 @@
 }
 
 .body.nft-creators-page .fifth-block .added-info-block .bottom-contacts .contact-images {
-    width: 38px;
-}
-
-.body.nft-creators-page .fifth-block .added-info-block .bottom-contacts #discord-contact-images {
-    -webkit-mask-size: cover;
-    mask-size: cover;
-    -webkit-mask-image: url("../svg/Discord.svg");
-    mask-image: url("../svg/Discord.svg");
-    background-color: #97A3B6;
     width: 38px;
 }
 
