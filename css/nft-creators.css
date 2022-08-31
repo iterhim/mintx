@@ -537,6 +537,7 @@
 }
 
 .body.nft-creators-page .first-block .benefits {
+    padding-top: 46px;
     display: flex;
     width: 98%;
     gap: 10px;
